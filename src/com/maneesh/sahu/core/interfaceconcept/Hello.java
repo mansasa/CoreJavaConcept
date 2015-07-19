@@ -12,6 +12,8 @@ class Hello implements A,B
       // System.out.println(x); // reference to x is ambiguous both variables are x
         System.out.println(A.x);
         System.out.println(B.x);
+        System.out.println(B.z);
+
     }
 }
 
@@ -22,4 +24,5 @@ interface A
 interface B
 {
     int x=100;
+    int z=200;
 }
