@@ -13,6 +13,7 @@ class Hello implements A,B
         System.out.println(A.x);
         System.out.println(B.x);
         System.out.println(B.z);
+        System.out.println(B.z);
 
     }
 }
